@@ -1,6 +1,7 @@
 
 package _03_modulo._4_fizz_buzz;
 
+import javax.swing.JOptionPane;
 
 /**
 * Fizz Buzz
@@ -21,6 +22,36 @@ package _03_modulo._4_fizz_buzz;
 **/
 
 public class FizzBuzz {
+public static void main(String[] args) {
+	//JOptionPane.showMessageDialog(null, "Are You Ready To Play Fizz Buzz?");
+	//JOptionPane.showMessageDialog(null, "1");
+	//JOptionPane.showMessageDialog(null, "2");
+	//JOptionPane.showMessageDialog(null, "Fizz");
+	//JOptionPane.showMessageDialog(null, "4");
+	//JOptionPane.showMessageDialog(null, "Buzz");
+	//JOptionPane.showMessageDialog(null, "Fizz");
+	//JOptionPane.showMessageDialog(null, "7");
+	//JOptionPane.showMessageDialog(null, "8");
+	//JOptionPane.showMessageDialog(null, "Fizz");
+	//JOptionPane.showMessageDialog(null, "Buzz");
+	//JOptionPane.showMessageDialog(null, "11");
+	//JOptionPane.showMessageDialog(null, "Fizz");
+	//JOptionPane.showMessageDialog(null, "13");
+	//JOptionPane.showMessageDialog(null, "14");
+	//JOptionPane.showMessageDialog(null, "Fizzbuzz");
+	//JOptionPane.showMessageDialog(null, "16");
+	//JOptionPane.showMessageDialog(null, "17");
+	//JOptionPane.showMessageDialog(null, "Fizz");
+	//JOptionPane.showMessageDialog(null, "19");
+	//JOptionPane.showMessageDialog(null, "Buzz");
+for (int i = 1; i < 21; i++) {
 
+	JOptionPane.showMessageDialog(null, i);
+}
+	
+}
+	
+	
+	
 }
 
